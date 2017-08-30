@@ -48,11 +48,11 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RVD-RK-uko">
                                 <rect key="frame" x="37.5" y="403" width="300" height="30"/>
                                 <color key="backgroundColor" red="0.63710159379999998" green="1" blue="0.63216626890000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Reset">
+                                <state key="normal" title="Login">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="didTapReset:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RXy-vO-ToN"/>
+                                    <action selector="didTapLogin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U3h-wL-eTB"/>
                                 </connections>
                             </button>
                         </subviews>
