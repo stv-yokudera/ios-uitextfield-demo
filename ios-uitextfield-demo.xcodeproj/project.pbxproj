@@ -13,6 +13,8 @@
 		B696547B1F569E20001BFCAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B696547A1F569E20001BFCAD /* Assets.xcassets */; };
 		B696547E1F569E20001BFCAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B696547C1F569E20001BFCAD /* LaunchScreen.storyboard */; };
 		B69654891F569E20001BFCAD /* ios_uitextfield_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69654881F569E20001BFCAD /* ios_uitextfield_demoTests.swift */; };
+		B69654941F56A07E001BFCAD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69654931F56A07E001BFCAD /* Constants.swift */; };
+		B69654991F56A39D001BFCAD /* String+PartiallyReplace.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69654981F56A39D001BFCAD /* String+PartiallyReplace.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		B69654841F569E20001BFCAD /* ios-uitextfield-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-uitextfield-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B69654881F569E20001BFCAD /* ios_uitextfield_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_uitextfield_demoTests.swift; sourceTree = "<group>"; };
 		B696548A1F569E20001BFCAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B69654931F56A07E001BFCAD /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B69654981F56A39D001BFCAD /* String+PartiallyReplace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+PartiallyReplace.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +81,14 @@
 		B69654721F569E20001BFCAD /* ios-uitextfield-demo */ = {
 			isa = PBXGroup;
 			children = (
+				B69654971F56A389001BFCAD /* Extensions */,
 				B69654731F569E20001BFCAD /* AppDelegate.swift */,
 				B69654751F569E20001BFCAD /* ViewController.swift */,
 				B69654771F569E20001BFCAD /* Main.storyboard */,
 				B696547A1F569E20001BFCAD /* Assets.xcassets */,
 				B696547C1F569E20001BFCAD /* LaunchScreen.storyboard */,
 				B696547F1F569E20001BFCAD /* Info.plist */,
+				B69654931F56A07E001BFCAD /* Constants.swift */,
 			);
 			path = "ios-uitextfield-demo";
 			sourceTree = "<group>";
@@ -94,6 +100,14 @@
 				B696548A1F569E20001BFCAD /* Info.plist */,
 			);
 			path = "ios-uitextfield-demoTests";
+			sourceTree = "<group>";
+		};
+		B69654971F56A389001BFCAD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B69654981F56A39D001BFCAD /* String+PartiallyReplace.swift */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,8 +215,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B69654991F56A39D001BFCAD /* String+PartiallyReplace.swift in Sources */,
 				B69654761F569E20001BFCAD /* ViewController.swift in Sources */,
 				B69654741F569E20001BFCAD /* AppDelegate.swift in Sources */,
+				B69654941F56A07E001BFCAD /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
