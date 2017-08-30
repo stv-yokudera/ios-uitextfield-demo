@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B69654741F569E20001BFCAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69654731F569E20001BFCAD /* AppDelegate.swift */; };
+		B69654761F569E20001BFCAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69654751F569E20001BFCAD /* ViewController.swift */; };
+		B69654791F569E20001BFCAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B69654771F569E20001BFCAD /* Main.storyboard */; };
+		B696547B1F569E20001BFCAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B696547A1F569E20001BFCAD /* Assets.xcassets */; };
+		B696547E1F569E20001BFCAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B696547C1F569E20001BFCAD /* LaunchScreen.storyboard */; };
+		B69654891F569E20001BFCAD /* ios_uitextfield_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69654881F569E20001BFCAD /* ios_uitextfield_demoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B69654851F569E20001BFCAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B69654681F569E20001BFCAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B696546F1F569E20001BFCAD;
+			remoteInfo = "ios-uitextfield-demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B69654701F569E20001BFCAD /* ios-uitextfield-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-uitextfield-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B69654731F569E20001BFCAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B69654751F569E20001BFCAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B69654781F569E20001BFCAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B696547A1F569E20001BFCAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B696547D1F569E20001BFCAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B696547F1F569E20001BFCAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B69654841F569E20001BFCAD /* ios-uitextfield-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-uitextfield-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B69654881F569E20001BFCAD /* ios_uitextfield_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_uitextfield_demoTests.swift; sourceTree = "<group>"; };
+		B696548A1F569E20001BFCAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B696546D1F569E20001BFCAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B69654811F569E20001BFCAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B69654671F569E20001BFCAD = {
+			isa = PBXGroup;
+			children = (
+				B69654721F569E20001BFCAD /* ios-uitextfield-demo */,
+				B69654871F569E20001BFCAD /* ios-uitextfield-demoTests */,
+				B69654711F569E20001BFCAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B69654711F569E20001BFCAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B69654701F569E20001BFCAD /* ios-uitextfield-demo.app */,
+				B69654841F569E20001BFCAD /* ios-uitextfield-demoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B69654721F569E20001BFCAD /* ios-uitextfield-demo */ = {
+			isa = PBXGroup;
+			children = (
+				B69654731F569E20001BFCAD /* AppDelegate.swift */,
+				B69654751F569E20001BFCAD /* ViewController.swift */,
+				B69654771F569E20001BFCAD /* Main.storyboard */,
+				B696547A1F569E20001BFCAD /* Assets.xcassets */,
+				B696547C1F569E20001BFCAD /* LaunchScreen.storyboard */,
+				B696547F1F569E20001BFCAD /* Info.plist */,
+			);
+			path = "ios-uitextfield-demo";
+			sourceTree = "<group>";
+		};
+		B69654871F569E20001BFCAD /* ios-uitextfield-demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B69654881F569E20001BFCAD /* ios_uitextfield_demoTests.swift */,
+				B696548A1F569E20001BFCAD /* Info.plist */,
+			);
+			path = "ios-uitextfield-demoTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B696546F1F569E20001BFCAD /* ios-uitextfield-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B696548D1F569E20001BFCAD /* Build configuration list for PBXNativeTarget "ios-uitextfield-demo" */;
+			buildPhases = (
+				B696546C1F569E20001BFCAD /* Sources */,
+				B696546D1F569E20001BFCAD /* Frameworks */,
+				B696546E1F569E20001BFCAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-uitextfield-demo";
+			productName = "ios-uitextfield-demo";
+			productReference = B69654701F569E20001BFCAD /* ios-uitextfield-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B69654831F569E20001BFCAD /* ios-uitextfield-demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B69654901F569E20001BFCAD /* Build configuration list for PBXNativeTarget "ios-uitextfield-demoTests" */;
+			buildPhases = (
+				B69654801F569E20001BFCAD /* Sources */,
+				B69654811F569E20001BFCAD /* Frameworks */,
+				B69654821F569E20001BFCAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B69654861F569E20001BFCAD /* PBXTargetDependency */,
+			);
+			name = "ios-uitextfield-demoTests";
+			productName = "ios-uitextfield-demoTests";
+			productReference = B69654841F569E20001BFCAD /* ios-uitextfield-demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B69654681F569E20001BFCAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Okudera Yuki";
+				TargetAttributes = {
+					B696546F1F569E20001BFCAD = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = PCCZJUYRT6;
+						ProvisioningStyle = Automatic;
+					};
+					B69654831F569E20001BFCAD = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = PCCZJUYRT6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B696546F1F569E20001BFCAD;
+					};
+				};
+			};
+			buildConfigurationList = B696546B1F569E20001BFCAD /* Build configuration list for PBXProject "ios-uitextfield-demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B69654671F569E20001BFCAD;
+			productRefGroup = B69654711F569E20001BFCAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B696546F1F569E20001BFCAD /* ios-uitextfield-demo */,
+				B69654831F569E20001BFCAD /* ios-uitextfield-demoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B696546E1F569E20001BFCAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B696547E1F569E20001BFCAD /* LaunchScreen.storyboard in Resources */,
+				B696547B1F569E20001BFCAD /* Assets.xcassets in Resources */,
+				B69654791F569E20001BFCAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B69654821F569E20001BFCAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B696546C1F569E20001BFCAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B69654761F569E20001BFCAD /* ViewController.swift in Sources */,
+				B69654741F569E20001BFCAD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B69654801F569E20001BFCAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B69654891F569E20001BFCAD /* ios_uitextfield_demoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B69654861F569E20001BFCAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B696546F1F569E20001BFCAD /* ios-uitextfield-demo */;
+			targetProxy = B69654851F569E20001BFCAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B69654771F569E20001BFCAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B69654781F569E20001BFCAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B696547C1F569E20001BFCAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B696547D1F569E20001BFCAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B696548B1F569E20001BFCAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B696548C1F569E20001BFCAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B696548E1F569E20001BFCAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PCCZJUYRT6;
+				INFOPLIST_FILE = "ios-uitextfield-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-uitextfield-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B696548F1F569E20001BFCAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PCCZJUYRT6;
+				INFOPLIST_FILE = "ios-uitextfield-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-uitextfield-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B69654911F569E20001BFCAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PCCZJUYRT6;
+				INFOPLIST_FILE = "ios-uitextfield-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-uitextfield-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-uitextfield-demo.app/ios-uitextfield-demo";
+			};
+			name = Debug;
+		};
+		B69654921F569E20001BFCAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PCCZJUYRT6;
+				INFOPLIST_FILE = "ios-uitextfield-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-uitextfield-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-uitextfield-demo.app/ios-uitextfield-demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B696546B1F569E20001BFCAD /* Build configuration list for PBXProject "ios-uitextfield-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B696548B1F569E20001BFCAD /* Debug */,
+				B696548C1F569E20001BFCAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B696548D1F569E20001BFCAD /* Build configuration list for PBXNativeTarget "ios-uitextfield-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B696548E1F569E20001BFCAD /* Debug */,
+				B696548F1F569E20001BFCAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B69654901F569E20001BFCAD /* Build configuration list for PBXNativeTarget "ios-uitextfield-demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B69654911F569E20001BFCAD /* Debug */,
+				B69654921F569E20001BFCAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B69654681F569E20001BFCAD /* Project object */;
+}
